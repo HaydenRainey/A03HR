@@ -9,38 +9,75 @@
         crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="/main.js"></script>
 
     <link rel="stylesheet" type="text/css" href="css/main2.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 </head>
 
-<body class="row">
-    <!--need to set body's class to "row"-->
+<!--temp solution to contact info modal-->
 
-    <nav class="navi col-lg-4 ">
-        <div class="navi-contain sticky">
-            <h1 class="heading">
-                DESIGNER.<br>
-                DEVELOPER.<br>
-                PHOTOGRAPHER.<br>
-                UX ENTHUSIEST.
-            </h1>
-            <p class="navi-text">
-                Hi i'm Hayden. I work as an Application Programmer/Analyist
-                for <span class="">@Evergy</span>.<br> Scroll to follow my work or say hello!
-            </p>
-            <ul class="social">
-                <li>
-                    <img src="img/github-logo.svg" width="40px" height="40px">
-                </li>
-                <li>
-                    <img src="img/twitter.svg" width="40px" height="40px">
-                </li>
-                <li>
-                    <img src="img/insta.svg" width="40px" height="40px">
-                </li>
-            </ul>
-            <button class="btn-lg btn-blue mt-heavy"><a href="#">Say Hello!</a></button>
+
+<body>
+    <div class="contact">
+        <div class="contact-modal">
+            <button id="modal-close">X</button>
+            <div class="row mt-5">
+                <div class="col">
+                    <ul class="sm-list">
+                        <li>
+                            <label>First Name</label>
+                            <input type="text" class="form-control" name="firstN">
+                        </li>
+                        <li>
+                            <label>Phone Name</label>
+                            <input type="tel" class="form-control" name="phone">
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="sm-list">
+                        <li>
+                            <label>last Name</label>
+                            <input type="text" class="form-control" name="lastN">
+                        </li>
+                        <li>
+                            <label>Email</label>
+                            <input type="email" class="form-control" name="email">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <textarea rows="10" cols="30"></textarea>
         </div>
-    </nav>
+    </div>
+    <div class="row">
+        <!--need to set body's class to "row"-->
+        <nav class="navi col-lg-4 ">
+            <div class="navi-contain sticky">
+                <h1 class="heading">
+                    DESIGNER.<br>
+                    DEVELOPER.<br>
+                    PHOTOGRAPHER.<br>
+                    UX ENTHUSIEST.
+                </h1>
+                <p class="navi-text">
+                    Hi i'm Hayden. I work as an Application Programmer/Analyist
+                    for <span class="">@Evergy</span>.<br> Scroll to follow my work or say hello!
+                </p>
+                <ul class="social">
+                    <li>
+                        <img src="img/github-logo.svg" width="40px" height="40px">
+                    </li>
+                    <li>
+                        <img src="img/twitter.svg" width="40px" height="40px">
+                    </li>
+                    <li>
+                        <img src="img/insta.svg" width="40px" height="40px">
+                    </li>
+                </ul>
+                <button class="btn-lg btn-blue mt-heavy"><a href="#">Say Hello!</a></button>
+            </div>
+        </nav>
