@@ -80,10 +80,11 @@ h1{
     padding: .5em 1.5em .5em 1.5em;
     border-radius:  10px;
     background-color: #ffffff;
+    box-shadow: #fff7b0 10px 0px 0px;
 }
 
 .lg-list>li:hover{
-    box-shadow: #505050 0px 0px 6px;
+    box-shadow: #fff7b0 20px 0px 0px;
 }
 
 .lg-list>li>a{
@@ -93,6 +94,14 @@ h1{
 
 .sm-list{
     list-style-type: none;
+    
+}
+
+.sm-list>li{
+    width: 20vw;
+    margin: 1em auto;
+    padding: .5em 1.5em;
+    background-color: white;
 }
 
 /*-----Navigation----*/
@@ -145,18 +154,17 @@ h1{
 
 .contact-modal{
     background-color: white;
-    margin: 10em auto; 
+    margin: 5% auto; 
     width: 50em;
-    height: 40em;
+    height: 30em;
+    padding: 5em;
     border-radius:  10px;
 }
 
-
-
-.contact-modal>#modal-close{
-    float: right;
-    margin-top: 1em;
-    margin-right: 1em;
+.contact-modal>#contact-close{
+    position: static;
+    top: 0;
+    
 }
 
 
@@ -179,6 +187,14 @@ h1{
     padding: 5%;
     width: 100%;
     
+    
+}
+
+/*forms*/
+.sm-form{
+    width: 90%;
+    margin: auto;
+
 }
 
 /*Game Board*/
