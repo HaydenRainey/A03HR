@@ -8,6 +8,15 @@
     top: 6em;
 }
 
+.float-item{
+    box-shadow: #70676748 10px 10px 10px;
+}
+
+.float-item:hover{
+    box-shadow: #24242467 5px 5px 5px;
+    width: calc(100% - .2%);
+}
+
 *{
     font-family: 'Nunito', sans-serif;
 }
@@ -46,6 +55,7 @@ h1{
 
 .btn-yellow{
     background-color: #EDE669;
+    border: solid 4px #ffffff;
     
 }
 
@@ -65,27 +75,30 @@ h1{
 
 .lg-list{
     list-style-type: none;
-    margin-top: 2vw;
-    width: 100%;
+    margin: 2vw auto 0 auto;
+    width: 45vw;
 }
 
 .lg-list .lg-list-desc{
-    width: 75%;
+    width: 70%;
     margin: 0px !important;
 }
 
+
+
 .lg-list>li{
-    width: 45vw;
+    width: 100%;
     margin: 1em auto;
     padding: .5em 1.5em .5em 1.5em;
     border-radius:  10px;
     background-color: #ffffff;
-    box-shadow: #fff7b0 10px 0px 0px;
+    
 }
 
-.lg-list>li:hover{
-    box-shadow: #fff7b0 20px 0px 0px;
-}
+/* .lg-list>li:hover{
+    box-shadow: #24242467 5px 5px 5px;
+    width: 44.7vw;
+} */
 
 .lg-list>li>a{
     text-decoration: none;
@@ -94,14 +107,16 @@ h1{
 
 .sm-list{
     list-style-type: none;
-    
+    padding: 0;
+    margin: 0 2em;
 }
 
 .sm-list>li{
-    width: 20vw;
+    width: 100%;
     margin: 1em auto;
-    padding: .5em 1.5em;
+    padding: .5em 1.5em .5em 1.5em;
     background-color: white;
+    border-radius:  10px;
 }
 
 /*-----Navigation----*/
