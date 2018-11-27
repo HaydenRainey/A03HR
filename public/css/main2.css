@@ -200,9 +200,12 @@ h1{
 .listview>li{
     background-color: lightgreen;
     padding: 5%;
-    width: 100%;
-    
-    
+    width: 100%;   
+}
+
+.fullview{
+    height: 100vh;
+    padding: 5em;
 }
 
 /*forms*/
@@ -257,7 +260,6 @@ h1{
 /*Info Box*/
 .infoBox{
     width: 10em; 
-    float: right;
     height: 20em;
     background-color: #faf8f8;
     margin-left: 2em;
